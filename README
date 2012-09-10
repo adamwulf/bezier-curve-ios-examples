@@ -1,0 +1,4 @@
+# Bezier Examples
+
+This repo contains a simple iOS iPad application that shows different 
+ways to draw/clip/mask UIViews and CALayers with Bezier curves.
