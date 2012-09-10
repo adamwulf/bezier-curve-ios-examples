@@ -27,6 +27,13 @@ static const int kNumberOfPages = 3;
     [scrollView addSubview:page1];
     [scrollView addSubview:page2];
     page1.frame = CGRectMake(self.view.bounds.size.width, 0, self.view.bounds.size.width, self.view.bounds.size.height);
+    
+    
+    //
+    // TODO
+    //
+    // page 3 should use a mask image: http://stackoverflow.com/questions/8308802/ios-uiimage-clip-to-paths
+    // that's defined from the other views on the screen (memory hog :( )
 }
 
 - (void)didReceiveMemoryWarning
