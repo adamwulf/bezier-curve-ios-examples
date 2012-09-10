@@ -15,6 +15,13 @@
 		66658A0015FE751100C6C4BB /* BCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 666589FF15FE751100C6C4BB /* BCAppDelegate.m */; };
 		66658A0315FE751100C6C4BB /* BCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66658A0215FE751100C6C4BB /* BCViewController.m */; };
 		66658A0615FE751100C6C4BB /* BCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66658A0415FE751100C6C4BB /* BCViewController.xib */; };
+		66658A1015FE7B1E00C6C4BB /* BCShapeLayerMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66658A0F15FE7B1E00C6C4BB /* BCShapeLayerMaskView.m */; };
+		66658A1215FE7C2E00C6C4BB /* spaceman.png in Resources */ = {isa = PBXBuildFile; fileRef = 66658A1115FE7C2E00C6C4BB /* spaceman.png */; };
+		66658A1415FE7C7A00C6C4BB /* mars.png in Resources */ = {isa = PBXBuildFile; fileRef = 66658A1315FE7C7A00C6C4BB /* mars.png */; };
+		66658A1615FE7CC600C6C4BB /* spaceship.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66658A1515FE7CC600C6C4BB /* spaceship.jpg */; };
+		66658A1815FE7D8800C6C4BB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66658A1715FE7D8800C6C4BB /* QuartzCore.framework */; };
+		66658A1D15FE87DA00C6C4BB /* BCClipDrawRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66658A1C15FE87DA00C6C4BB /* BCClipDrawRectView.m */; };
+		66658A2015FE880A00C6C4BB /* BCClippedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66658A1F15FE880A00C6C4BB /* BCClippedImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +38,16 @@
 		66658A0115FE751100C6C4BB /* BCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCViewController.h; sourceTree = "<group>"; };
 		66658A0215FE751100C6C4BB /* BCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCViewController.m; sourceTree = "<group>"; };
 		66658A0515FE751100C6C4BB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BCViewController.xib; sourceTree = "<group>"; };
+		66658A0E15FE7B1E00C6C4BB /* BCShapeLayerMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCShapeLayerMaskView.h; sourceTree = "<group>"; };
+		66658A0F15FE7B1E00C6C4BB /* BCShapeLayerMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCShapeLayerMaskView.m; sourceTree = "<group>"; };
+		66658A1115FE7C2E00C6C4BB /* spaceman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spaceman.png; sourceTree = "<group>"; };
+		66658A1315FE7C7A00C6C4BB /* mars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mars.png; sourceTree = "<group>"; };
+		66658A1515FE7CC600C6C4BB /* spaceship.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spaceship.jpg; sourceTree = "<group>"; };
+		66658A1715FE7D8800C6C4BB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		66658A1B15FE87DA00C6C4BB /* BCClipDrawRectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCClipDrawRectView.h; sourceTree = "<group>"; };
+		66658A1C15FE87DA00C6C4BB /* BCClipDrawRectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCClipDrawRectView.m; sourceTree = "<group>"; };
+		66658A1E15FE880A00C6C4BB /* BCClippedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCClippedImageView.h; sourceTree = "<group>"; };
+		66658A1F15FE880A00C6C4BB /* BCClippedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCClippedImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66658A1815FE7D8800C6C4BB /* QuartzCore.framework in Frameworks */,
 				666589F015FE751100C6C4BB /* UIKit.framework in Frameworks */,
 				666589F215FE751100C6C4BB /* Foundation.framework in Frameworks */,
 				666589F415FE751100C6C4BB /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +68,7 @@
 		666589E015FE751100C6C4BB = {
 			isa = PBXGroup;
 			children = (
+				66658A1715FE7D8800C6C4BB /* QuartzCore.framework */,
 				666589F515FE751100C6C4BB /* BezierCurveExamples */,
 				666589EE15FE751100C6C4BB /* Frameworks */,
 				666589EC15FE751100C6C4BB /* Products */,
@@ -77,11 +96,10 @@
 		666589F515FE751100C6C4BB /* BezierCurveExamples */ = {
 			isa = PBXGroup;
 			children = (
-				666589FE15FE751100C6C4BB /* BCAppDelegate.h */,
-				666589FF15FE751100C6C4BB /* BCAppDelegate.m */,
-				66658A0115FE751100C6C4BB /* BCViewController.h */,
-				66658A0215FE751100C6C4BB /* BCViewController.m */,
-				66658A0415FE751100C6C4BB /* BCViewController.xib */,
+				66658A1915FE87AD00C6C4BB /* Images */,
+				66658A0D15FE7AF800C6C4BB /* App Delegate */,
+				66658A0C15FE7AF200C6C4BB /* Page 1 */,
+				66658A1A15FE87B500C6C4BB /* Page 2 */,
 				666589F615FE751100C6C4BB /* Supporting Files */,
 			);
 			path = BezierCurveExamples;
@@ -96,6 +114,48 @@
 				666589FD15FE751100C6C4BB /* BezierCurveExamples-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66658A0C15FE7AF200C6C4BB /* Page 1 */ = {
+			isa = PBXGroup;
+			children = (
+				66658A0E15FE7B1E00C6C4BB /* BCShapeLayerMaskView.h */,
+				66658A0F15FE7B1E00C6C4BB /* BCShapeLayerMaskView.m */,
+			);
+			name = "Page 1";
+			sourceTree = "<group>";
+		};
+		66658A0D15FE7AF800C6C4BB /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				666589FE15FE751100C6C4BB /* BCAppDelegate.h */,
+				666589FF15FE751100C6C4BB /* BCAppDelegate.m */,
+				66658A0115FE751100C6C4BB /* BCViewController.h */,
+				66658A0215FE751100C6C4BB /* BCViewController.m */,
+				66658A0415FE751100C6C4BB /* BCViewController.xib */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		66658A1915FE87AD00C6C4BB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				66658A1115FE7C2E00C6C4BB /* spaceman.png */,
+				66658A1515FE7CC600C6C4BB /* spaceship.jpg */,
+				66658A1315FE7C7A00C6C4BB /* mars.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		66658A1A15FE87B500C6C4BB /* Page 2 */ = {
+			isa = PBXGroup;
+			children = (
+				66658A1B15FE87DA00C6C4BB /* BCClipDrawRectView.h */,
+				66658A1C15FE87DA00C6C4BB /* BCClipDrawRectView.m */,
+				66658A1E15FE880A00C6C4BB /* BCClippedImageView.h */,
+				66658A1F15FE880A00C6C4BB /* BCClippedImageView.m */,
+			);
+			name = "Page 2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +212,9 @@
 			files = (
 				666589FA15FE751100C6C4BB /* InfoPlist.strings in Resources */,
 				66658A0615FE751100C6C4BB /* BCViewController.xib in Resources */,
+				66658A1215FE7C2E00C6C4BB /* spaceman.png in Resources */,
+				66658A1415FE7C7A00C6C4BB /* mars.png in Resources */,
+				66658A1615FE7CC600C6C4BB /* spaceship.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +228,9 @@
 				666589FC15FE751100C6C4BB /* main.m in Sources */,
 				66658A0015FE751100C6C4BB /* BCAppDelegate.m in Sources */,
 				66658A0315FE751100C6C4BB /* BCViewController.m in Sources */,
+				66658A1015FE7B1E00C6C4BB /* BCShapeLayerMaskView.m in Sources */,
+				66658A1D15FE87DA00C6C4BB /* BCClipDrawRectView.m in Sources */,
+				66658A2015FE880A00C6C4BB /* BCClippedImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

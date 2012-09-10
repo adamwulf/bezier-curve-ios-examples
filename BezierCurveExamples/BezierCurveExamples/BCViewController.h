@@ -11,6 +11,9 @@
 @interface BCViewController : UIViewController<UIScrollViewDelegate>{
     IBOutlet UIScrollView* scrollView;
     IBOutlet UIPageControl* pageControl;
+    
+    IBOutlet UIView* page1;
+    IBOutlet UIView* page2;
 }
 
 @end

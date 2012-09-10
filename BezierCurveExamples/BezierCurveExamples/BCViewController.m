@@ -23,6 +23,10 @@ static const int kNumberOfPages = 3;
     scrollView.contentSize = CGSizeMake(scrollView.bounds.size.width*kNumberOfPages, scrollView.bounds.size.height);
     pageControl.numberOfPages = kNumberOfPages;
     pageControl.currentPage = 0;
+    
+    [scrollView addSubview:page1];
+    [scrollView addSubview:page2];
+    page1.frame = CGRectMake(self.view.bounds.size.width, 0, self.view.bounds.size.width, self.view.bounds.size.height);
 }
 
 - (void)didReceiveMemoryWarning
